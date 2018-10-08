@@ -1,0 +1,7 @@
+program{
+
+int x,y;
+
+x:=2.3;
+
+}

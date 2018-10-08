@@ -1,0 +1,14 @@
+program{
+
+int x,y;
+float res;
+read x;
+read y;
+
+
+res := x+y;
+
+write res+1;
+
+
+}

@@ -1,0 +1,11 @@
+program{
+
+bool x;
+float y;
+
+x:=1;
+y:=x;
+
+write y;
+
+}

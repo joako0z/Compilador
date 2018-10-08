@@ -1,0 +1,27 @@
+program
+{
+           int n, next, c, first, second;
+        
+
+           first := 0;
+            second := 1;
+         
+        read n;
+        
+         c:=0;
+        
+            while (c < n)
+           {
+                  if ( c <= 1 )
+                     next := c;
+                  else
+                  {
+                         next := first + second;
+                         first := second;
+                         second := next;
+                      }fi
+                  write next;
+                    c:=c+1;
+               }
+        
+        }

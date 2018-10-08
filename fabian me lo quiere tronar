@@ -1,0 +1,9 @@
+program{
+
+int x;
+
+x:=(3/2)*3;
+
+write x;
+
+}

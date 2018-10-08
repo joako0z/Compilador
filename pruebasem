@@ -1,0 +1,19 @@
+program {
+        
+float x,y;
+        
+        
+write y;
+        
+ read x;
+        
+ while(x!=0){
+ if(x>0){
+                write x;
+                x:=x-1;
+                }fi
+            
+            }
+        
+        
+        }
